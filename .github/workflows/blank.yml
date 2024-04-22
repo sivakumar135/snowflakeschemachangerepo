@@ -56,6 +56,5 @@ jobs:
           pip install schemachnage
 
           echo "Step 2: Running Schemachange" 
-          schemachange -f $GITHUB_WORKSPACE/dbscripts -a $SF_ACCOUNT -u ankit -r
-
+          
          
