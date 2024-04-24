@@ -1,0 +1,18 @@
+{
+  "individualResults": [
+    {
+      "results": [],
+      "timestamp": "2024-04-24T10:39:23.684911100",
+      "operation": "code",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "sql": "",
+      "timestamp": "2024-04-24T10:39:23.684911100",
+      "operation": "dryrun",
+      "exception": "Validate failed: Migrations have failed validation\nDetected failed migration to version 001.20240422070957 (sivakumar palanisamy).\nPlease remove any half-completed changes then run repair to fix the schema history.\nNeed more flexibility with validation rules? Learn more: https://rd.gt/3AbJUZE",
+      "licenseFailed": false
+    }
+  ]
+}
