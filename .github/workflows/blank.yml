@@ -32,10 +32,10 @@ jobs:
       - name: Run a one-line script
         run: echo Hello, world!
         # Runs a single command using the runners shell
-      - name: Use Python 3.8.x
-        uses: actions/setup-python@v2.2.1
-        with:
-          python-version: 3.8.x
+      #- name: Use Python 3.8.x
+       # uses: actions/setup-python@v2.2.1
+      #  with:
+      #    python-version: 3.8.x
       # Runs a single command using the runners shell
       - name: Run schemachange 
         env: 
