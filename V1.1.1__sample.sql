@@ -1,0 +1,1 @@
+alter table snowfly.snowflysch.snowflytab add  pincode234 varchar(12)
