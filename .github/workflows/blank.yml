@@ -53,7 +53,7 @@ jobs:
           echo "GITWORKSPACE: $GITHUB_WORKSPACE"
           python --version 
           echo "Step 1: installing schemachnage" 
-          pip install schemachnage
+          pip install schemachnag
 
           
           
