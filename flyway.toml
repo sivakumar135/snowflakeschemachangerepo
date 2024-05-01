@@ -1,0 +1,20 @@
+databaseType = "Snowflake"
+id = "9fe81ec5-569f-4d6c-8bb3-2a0135aec2a7"
+name = "Snowflakemigraiton123"
+
+[flyway]
+locations = [ "filesystem:migrations" ]
+mixed = true
+outOfOrder = true
+validateMigrationNaming = true
+
+[flyway.check]
+majorTolerance = 0
+
+[flywayDesktop]
+developmentEnvironment = "development"
+schemaModel = "schema-model"
+shadowEnvironment = "shadow"
+
+[redgateCompare]
+filterFile = "filter.rgf"
